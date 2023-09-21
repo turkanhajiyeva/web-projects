@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Questionaire</title>
+
+</head>
+
+<body>
+    
+    <form action="mailto:thajiyeva15574@ada.edu.az" method="post" enctype="multipart/form-data">
+<!-- text/plain -->
+
+        <label for="">FirstName:</label>
+        <input type="text" id="fname" required placeholder="Enter first name"> <br>
+
+        <label for="">LastName:</label>
+        <input type="text" id="lname"required placeholder="Enter last name"> <br>
+
+        <fieldset>  
+            <legend>Select your gender</legend>  
+            <input type="radio" name="gender" id="gender_male" value="MALE" checked/> <label for="gender_male"> Male</label> <br>
+            <input type="radio" name="gender" id="gender_female" value="FEMALE"/> <label for="gender_female">Female</label> <br>
+            <input type="radio" name="gender" id="gender_other" value="OTHER"/> <label for="gender_other">Other</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which programming languages you know</legend>
+            <label for="lang_java"> <input type="checkbox" name="lang" id="lang_java" value="JAVA"> JAVA</label>
+            <label for="lang_phyton"> <input type="checkbox" name="lang" id="lang_phyton" value="PYTHON"> PYHTON</label>
+            <label for="lang_php"> <input type="checkbox" name="lang" id="lang_php" value="PHP">PHP</label>
+        </fieldset>
+
+        <input type="submit" value="SUBSEND">
+
+    </form>
+
+</body>
+
+</html>
